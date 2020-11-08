@@ -1,0 +1,45 @@
+@import '../foundation/colors.scss';
+
+.carousel {
+  .slide {
+    background: $beige-2 !important;
+    img {
+      width: 378px !important;
+    }
+  }
+  .carousel-status {
+    display: none !important;
+  }
+  .thumbs {
+    display: none !important;
+  }
+  .control-dots .dot {
+    background-color: $black !important;
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .slider-content {
+    display: flex;
+  }
+  .slider-card {
+    width: 375px;
+    height: 525px;
+    margin: 0 auto;
+    .copy-wrapper {
+      text-align: left;
+      padding: 50px 25px;
+      width: 85%;
+      .gray-copy {
+        font-style: italic;
+        color: gray;
+      }
+    }
+  }
+}
+
+.carousel.carousel-slider {
+  .control-arrow {
+    display: none !important;
+  }
+}

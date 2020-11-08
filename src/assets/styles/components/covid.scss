@@ -1,0 +1,29 @@
+.col-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left-col {
+    width: 100%;
+  }
+
+  .right-col {
+    width: 50%;
+    position: relative;
+    top: 250px;
+    text-align: left;
+
+    p {
+      width: 50%;
+    }
+
+    button {
+      border-radius: 30px;
+      height: 45px;
+      width: 175px;
+      background-color: transparent;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}

@@ -12,7 +12,7 @@ const RequestDemo = () => (
         <Grid item sm={8}>
           <div className="copy-wrapper">
             <h2>Request a demo, trail or consultation to discover how our conversational AI can make a difference.</h2>
-            <h2 className="get-in-touch">Get in touch <ArrowForward /></h2>
+            <a href="#" className="underline"><h2 className="get-in-touch">Get in touch <ArrowForward /></h2></a>
           </div>
         </Grid>
         <Grid item sm={2} />
